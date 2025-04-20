@@ -1,0 +1,57 @@
+@keyframes scroll {
+    100% {
+        transform: translateX(0%);
+    }
+    0% {
+        /* Translate by the width of one set of items */
+        transform: translateX(-50%);
+    }
+}
+
+.animate-scroll {
+    /* Apply the animation */
+    animation: scroll 25s linear infinite; /* Adjust duration as needed */
+    animation-play-state: running;
+}
+
+/* Pause animation when hovering the main container */
+.carousel-container:hover .animate-scroll {
+    animation-play-state: paused;
+}
+
+/* Fade effect container - ensure it has position relative */
+.carousel-container {
+    position: relative;
+}
+
+/* Right fade effect */
+.carousel-container::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 8rem; /* w-32 */
+    pointer-events: none;
+    z-index: 10; /* Ensure fade is above scrolling content */
+    /* Use Tailwind color variable or hardcoded value */
+    background: linear-gradient(to left, white, transparent);
+}
+
+/* Left fade effect */
+.carousel-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 8rem; /* w-32 */
+    pointer-events: none;
+    z-index: 10; /* Ensure fade is above scrolling content */
+    /* Use Tailwind color variable or hardcoded value */
+    background: linear-gradient(to right, white, transparent);
+}
+
+.carousel-card {
+    position: relative;
+}
