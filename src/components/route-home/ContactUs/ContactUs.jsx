@@ -80,7 +80,7 @@ const ContactUs = () => {
                         className="bg-white rounded-xl shadow-lg p-2 h-80"
                     >
                         <iframe
-                            src="https://www.google.com/maps/place/Renu+Eye+Care+Centre,+Graham+Bazar,+Dibrugarh,+Assam+786001/data=!4m2!3m1!1s0x374099947260150d:0x5cf9800b6bc76d5b?utm_source=mstt_1&entry=gps&coh=192189&g_ep=CAESCjExLjE1MS45MDEYACDXggMqYyw5NDIyMzI5OSw5NDIxNjQxMyw5NDIxMjQ5Niw5NDIwNzM5NCw5NDIwNzUwNiw5NDIwODUwNiw5NDIxNzUyMyw5NDIxODY1Myw5NDIyOTgzOSw0NzA4NDM5Myw5NDIxMzIwMEICSU4%3D&skid=74e10279-1c30-4cb9-90a4-c077c3233ca7"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3577.0538061563837!2d94.91066937507181!3d27.467033976358297!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x374099947260150d%3A0x5cf9800b6bc76d5b!2sRenu%20Eye%20Care%20Centre!5e0!3m2!1sen!2sin!4v1712142379647!5m2!1sen!2sin"
                             width="100%"
                             height="100%"
                             style={{ border: 0 }}
