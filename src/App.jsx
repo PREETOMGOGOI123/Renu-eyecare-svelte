@@ -56,8 +56,10 @@ function App() {
     <div className="relative overflow-x-hidden w-full">
       <Header />
       <Hero />
-      <ExclusiveSection scrollYProgress={scrollYProgress} />
-      <ServicesSection scrollYProgress={scrollYProgress} />
+      <div className='relative h-fit'>
+        <ExclusiveSection scrollYProgress={scrollYProgress} />
+        <ServicesSection scrollYProgress={scrollYProgress} />
+      </div>
       <AboutUs />
       <ContactUs />
       <Footer />
