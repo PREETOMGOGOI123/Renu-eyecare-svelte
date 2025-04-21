@@ -72,7 +72,7 @@ const AboutUs = () => {
                 alt="Ma Eyes Private Limited" 
                 className="h-24 object-contain mx-auto"
               />
-              <h4 className="mt-4 text-xl font-semibold text-gray-800">Ma Eyes Private Limited</h4>
+              <h4 className="mt-4 text-xl font-semibold text-gray-800">Maeyes Private Limited</h4>
             </motion.div>
             
             <motion.div
@@ -85,7 +85,7 @@ const AboutUs = () => {
                 alt="Ma Eyes Foundation" 
                 className="h-24 object-contain mx-auto"
               />
-              <h4 className="mt-4 text-xl font-semibold text-gray-800">Ma Eyes Foundation</h4>
+              <h4 className="mt-4 text-xl font-semibold text-gray-800">Maeyes Foundation</h4>
             </motion.div>
           </div>
         </motion.div>
