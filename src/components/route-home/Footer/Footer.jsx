@@ -43,13 +43,7 @@ const Footer = () => {
                                 <FiMail className="text-[#009a9a] mr-3" />
                                 <span className="text-gray-400">renueyecarecenter@gmail.com</span>
                             </li>
-                            <li className="flex items-start">
-                                <FiClock className="text-[#009a9a] mr-3 mt-1" />
-                                <div className="text-gray-400">
-                                    <p>Mon - Sat: 9:00 AM - 7:00 PM</p>
-                                    <p>Sunday: 10:00 AM - 2:00 PM</p>
-                                </div>
-                            </li>
+                            
                         </ul>
                     </div>
                 </div>
