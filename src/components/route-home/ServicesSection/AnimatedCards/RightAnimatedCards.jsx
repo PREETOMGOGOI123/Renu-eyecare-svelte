@@ -103,7 +103,6 @@ onMouseLeave={handleLeave}
 <h3 className="text-lg font-semibold text-[#009a9a]">{service.title}</h3>
 </div>
 
-text
       {/* Expandable Details Section */}
       <div
         className="overflow-auto px-4 transition-all duration-300 ease-in-out"
