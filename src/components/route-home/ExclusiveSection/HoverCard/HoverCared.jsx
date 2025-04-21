@@ -38,7 +38,7 @@ function HoverCared() {
       title: 'Dye-less fundus angiography by Optical Coherence Tomography (OCT)',
       description:
         'Non-invasive blood vessel imaging using cutting-edge OCT technology',
-      backgroundUrl: '/images/exclusiveSection/Dye less fundus angiography.png',
+      backgroundUrl: '/images/exclusiveSection/Fundus Angiography.jpg',
     },
     {
       title: 'Laser assisted, ultra wide field, high resolution, dye fundus angiography',

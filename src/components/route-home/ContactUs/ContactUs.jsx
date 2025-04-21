@@ -29,14 +29,6 @@ const ContactUs = () => {
                 
             ]
         },
-        {
-            icon: <FiClock className="text-2xl text-[#009a9a]" />,
-            title: "Working Hours",
-            details: [
-                "Monday - Saturday: 9:00 AM - 7:00 PM",
-                "Sunday: 10:00 AM - 2:00 PM"
-            ]
-        }
     ];
 
     return (
